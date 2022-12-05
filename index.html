@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./public/css/menu.css">
     <link rel="stylesheet" href="./public/css/title.css">
     <link rel="stylesheet" href="./public/css/footer.css">
-    
+    <link rel="stylesheet" href="./public/css/content.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 </head>
 <style>
     body { 
@@ -46,7 +47,7 @@
               
       
       
-          <!-- 내용 -->
+          <!-- 타이틀2 -->
           <div class = "content">
               <div id = "header1"></div>
               <div id="index_01">
@@ -63,7 +64,20 @@
                   </div>
               </div>
           </div>
-      
+
+          <!--내용-->
+          <div class = "content">
+            <div id = "content1"></div>
+            <p id = "introduce">소개글: 안녕하세요. 웹프로그래밍을 하며 코딩하는 한 학생입니다.</p>
+            
+
+          </div>
+
+          <div id="map" style="height:100vh;position :relative "></div>
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e3e7605e45c13e659398bd20b1a3c658"></script>
+            
+            <script src="./public/js/KakaoMap.js"></script>
+          
           <!-- footer -->
           <div class = "contact"></div>
           <div id = 'wrap'>
