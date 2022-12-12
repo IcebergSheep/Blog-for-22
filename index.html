@@ -67,12 +67,12 @@
           </div>
 
           <!--내용-->
-          <div class = "content" >
-            <div class = "content1">
-                <p id = "introduce">
-                    
-                </p>
-                <h1 class = "INTRODUCE">###INTRODUCE</h1>
+
+          <!-- 소개글 -->
+          <div class="grey_content">
+            <h1 class = "BigTitle">###INTRODUCE</h1>
+            <div class="content1">
+              <p>
                     <li>🔭 I’m currently studying on Hallym University</li>
                     <li>🌱 I’m currently learning Data structure</li>
                     <li>🤔 I’m looking for help with Algorithms </li>
@@ -81,54 +81,59 @@
                     <li>😄 Pronouns: LavaCat</li>
                     <li>⚡ Fun fact: !!!</li>
                 
-                    
-                
-                
-                    <!-- <h1 class = "introduce2"> "스스로가 원하는 리더가 되자."</h1> <br>
-                    <h1 class = "introduce2"> "진정성 있게 행동하자." </h1> <br>
-                    <h1 class = "introduce2"> "할 수 없을 것 같은 일 한가지를 도전하고 실패하자 그리고 이번에는 더 잘하자" </h1> <br> -->
-    
-            </div>        
+              </p>
+            </div>
           </div>
 
-          <div class = "content2">
+          <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+            <script>
+            $(document).ready(function () {
+                $('.grey_content').hover(function(){
+                    $('.content1').slideToggle();
+            }, function(){
+                
+                });
+            });
+
+            </script>
+
+            <!-- 유튜브 채널과 할 수 있는 것들 -->
+         
+
+          <!-- 유튜브 채널과 할 수 있는 것들 -->
+          <div class = "black_content">
             <div class = "imgbox">
-                <p class = "icantxt">i can..</p>
+                <p class = "SmallTitle">##ICAN</p>
                 <div id = "imgboxIcan">
-                    <img id = "ican" src="public/imgs/s.png" alt="">
+                    <div class = "box1">
+                        <img id = "threeimgs" src="public/imgs/html5.png" alt="">
+                    </div>
+                    <div class = "box1">
+                        <img id = "threeimgs" src="public/imgs/css3.png" alt="">
+                    </div>
+                    <div class = "box1">
+                        <img id = "threeimgs" src="public/imgs/javascript.png" alt="">
+                    </div>
+                    
                 </div>
-                <p class = "icantxt">MyYoutubeCannel</p>
-                <div class = "vSize">
+                <p class = "SmallTitle">##MyYoutubeCannel</p>
+                <div class = "vedioDiv">
                     <iframe id = "YoutubeVedio" width="560" height="315" src="https://www.youtube.com/embed/OhIgBn3Dl9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             
           </div>
-
-          <div class = "content" >
-            <div class = "content1">
-                <p id = "introduce">
-                    
-                </p>
-                <h1 class = "INTRODUCE">###INTRODUCE</h1>
-                    <li>🔭 I’m currently studying on Hallym University</li>
-                    <li>🌱 I’m currently learning Data structure</li>
-                    <li>🤔 I’m looking for help with Algorithms </li>
-                    <li>💬 Ask me about anything</li>
-                    <li>📫 How to reach me: e-mail</li>
-                    <li>😄 Pronouns: LavaCat</li>
-                    <li>⚡ Fun fact: !!!</li>
-                
-                    
-                
-                
-                    <!-- <h1 class = "introduce2"> "스스로가 원하는 리더가 되자."</h1> <br>
-                    <h1 class = "introduce2"> "진정성 있게 행동하자." </h1> <br>
-                    <h1 class = "introduce2"> "할 수 없을 것 같은 일 한가지를 도전하고 실패하자 그리고 이번에는 더 잘하자" </h1> <br> -->
-    
-            </div>        
-          </div>
           
+          
+          
+          
+          <!-- block 형식의 카드 클릭시 link 로 들어감 -->
+          <div class = "grey_content">
+            <div class = "box1">1</div>
+            <div class = "box1">2</div>
+            <div class = "box1">3</div>
+
+          </div>
           <div class = "contact"></div>
           <div id = 'wrap'>
               <section></section>

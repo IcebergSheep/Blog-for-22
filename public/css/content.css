@@ -3,29 +3,29 @@
     padding-bottom: 50px;
 }
 
-.content{
+.grey_content{
     
     padding-left: 25%;
     padding-right: 25%;
     background-color: #404040;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
-.content1{
+
+.black_content{
+    padding-top: 10px;
     padding-bottom: 50px;
-}
-#content2{
-    
-    background-color: #333;
-    top: 100px;
-}
-.imgbox{
-    top:100px;
-    padding-top: 70px;
-}
-.icantxt{
     padding-left: 25%;
     padding-right: 25%;
+}
 
+
+
+
+
+.SmallTitle{
+    
     font-size: 50px;
     text-align: justify;
     color: blanchedalmond;
@@ -34,9 +34,53 @@
     
 }
 
-.INTRODUCE:hover{
+.BigTitle:hover{
     color: orange;
 }
+
+
+
+#YoutubeVedio{
+    
+    margin: auto;
+   
+}
+.vedioDiv{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: right;
+}
+
+#imgboxIcan{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#threeimgs{
+    width: 400px;
+    height: 250px;
+    
+}
+ 
+.imgbox{
+    top:100px;
+    padding-top: 70px;
+}
+.box1{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    
+}
+
+div.box1:hover{
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
 h1.introduce2{
     text-align: center;
     font-size: 30px;
@@ -49,60 +93,8 @@ h1.introduce2{
     text-align: left;
     letter-spacing: -1.8px; */
     /* position:relative; */
- }
-
-#YoutubeVedio{
-    display: block;
-    margin: auto;
-
 }
-
-
-
-.vSize{
-    width: 100%;
-   
-}
-
-#imgboxIcan{
-    text-align: center;
-    
-}
-
-.ican{
-    width: 100%;
-}
- 
 h1.introduce2:hover {
     text-decoration: underline;
     color: antiquewhite;
 }
-
-/*왼쪽에서 오른쪽으로 이동하는 에니메이션*/
-
-  /* .introduce2:after{
-    content: "";
-    position: absolute;
-    left: 370px;
-    bottom: 50px;
-    width: 0px;
-    height: 2px;
-    margin: 5px 0 0;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.3s;
-    opacity: 0;
-    background-color: #8fd3f4;
-/* 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-color: #bfffa1;
-    z-index: -1; */
- /*}
-  .introduce2:hover:after{
-    width: 30%;
-    opacity: 1;
-  } */ 
-  
-  /*왼쪽에서 오른쪽으로 이동하는 에니메이션:끝*/
